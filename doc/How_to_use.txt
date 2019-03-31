@@ -1,8 +1,14 @@
+DOCUMENTATION D'UTILISATION PROJET ARCADE
+
+Julien Ferrier, Bryan Carillo, Hugo Alabert
+
+-HOW TO USE
 Pour compiler tapez "make".
 Puis le lancer en tapant "./arcade ./lib_arcade(ncurses/sfml).so".
 La touche C vous permer de changer directement de lib.
 Les touches G et L de choisir la lib ou le jeu dans le Menu.
-Les fleches vous permaites de vous déplacer dans le jeu.
+Pour lancer le jeu appuyer sur E
+Les fleches vous permétes de vous déplacer dans le jeu.
 Pour le centiped : la touche SPACE pour tirer.
 La touche M de faire réaparètre le menu.
 La touche ESC pour restart.
