@@ -15,7 +15,7 @@ CPPFLAGS	+=	-I../games
 NAME	= ../arcade
 
 SRCS	= core.cpp	\
-	  main_tmp.cpp
+	  main.cpp
 
 OBJS	= $(SRCS:.cpp=.o)
 
