@@ -13,7 +13,7 @@ CXXFLAGS	= -W -Wall -Wextra
 CXXFLAGS	+= -I Include/
 CXXFLAGS	+= -I ../
 
-NAME		= ../Centiped.so
+NAME		= ../lib_arcade_centipede.so
 
 SRCS		=	centipede.cpp	\
 			Crate.cpp	\

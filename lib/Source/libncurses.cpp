@@ -10,7 +10,7 @@
 libncurses::libncurses()
 {
 	this->libName.assign("./lib_arcade_ncurses.so");
-	this->gameName.assign("games/Nibbler.so");
+	this->gameName.assign("games/lib_arcade_nibbler.so");
 	this->_win = NULL;
 	this->width = 60;
 	this->height = 60;
@@ -37,8 +37,8 @@ void	libncurses::initText()
 {
 	_textLib.push_back("./lib_arcade_ncurses.so");
 	_textLib.push_back("./lib_arcade_sfml.so");
-	_textGame.push_back("games/Nibbler.so");
-	_textGame.push_back("games/Centiped.so");
+	_textGame.push_back("games/lib_arcade_nibbler.so");
+	_textGame.push_back("games/lib_arcade_centipede.so");
 }
 
 void	libncurses::swapLibs()

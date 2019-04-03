@@ -12,7 +12,7 @@ CXX		= g++ -shared -fPIC
 CXXFLAGS	= -W -Wall -Wextra
 CXXFLAGS	+= -I./include/
 
-NAME		= ../Nibbler.so
+NAME		= ../lib_arcade_nibbler.so
 
 SRCS		= snake.cpp	\
 		  utils.cpp

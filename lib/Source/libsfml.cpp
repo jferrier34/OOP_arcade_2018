@@ -12,7 +12,7 @@
 libsfml::libsfml()
 {
 	this->libName.assign("./lib_arcade_sfml.so");
-	this->gameName.assign("/games/Nibbler.so");
+	this->gameName.assign("/games/lib_arcade_nibbler.so");
 	this->width = 200;
 	this->height = 200;
 	_win.create(sf::VideoMode(1600, 800), "my window");
@@ -46,12 +46,12 @@ void	libsfml::initText()
 	_textLib[1].setCharacterSize(32);
 	_textLib[1].setPosition(sf::Vector2f(250, 300));
 
-	_textGame[0].setString("games/Nibbler.so");
+	_textGame[0].setString("games/lib_arcade_nibbler.so");
 	_textGame[0].setFont(_font);
 	_textGame[0].setCharacterSize(32);
 	_textGame[0].setPosition(sf::Vector2f(250, 600));
 
-	_textGame[1].setString("games/Centiped.so");
+	_textGame[1].setString("games/lib_arcade_centipede.so");
 	_textGame[1].setFont(_font);
 	_textGame[1].setCharacterSize(32);
 	_textGame[1].setPosition(sf::Vector2f(250, 700));
